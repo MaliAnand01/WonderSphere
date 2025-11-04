@@ -1,0 +1,171 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+}
+
+/* ===== HERO SECTION ===== */
+#hero .carousel-item {
+  height: 90vh;
+  min-height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+#hero .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+#hero .carousel-caption h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#hero .carousel-caption p {
+  font-size: 1.1rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* ===== DESTINATIONS SECTION ===== */
+#destinations .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+#destinations .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+#destinations .card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
+
+/* ===== SPECIAL OFFERS SECTION ===== */
+#offers .card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#offers .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+#offers .card-img-top {
+  height: 230px;
+  object-fit: cover;
+}
+
+/* ===== TESTIMONIALS SECTION ===== */
+#testimonials .card {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#testimonials .card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+#testimonials img {
+  object-fit: cover;
+  border: 3px solid #0078aa; /* Matches your theme */
+}
+
+#testimonials p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  font-size: 0.9rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer i {
+  font-size: 1.2rem;
+  transition: transform 0.2s ease;
+}
+
+footer i:hover {
+  transform: scale(1.2);
+}
+
+
+/* ===== CTA SECTION ===== */
+#cta h2 {
+  font-size: 2rem;
+}
+
+#cta p {
+  font-size: 1.1rem;
+}
+
+#cta .btn {
+  border-radius: 50px;
+  padding: 10px 25px;
+  font-weight: 600;
+  transition: transform 0.2s ease;
+}
+
+#cta .btn:hover {
+  transform: scale(1.05);
+}
+
+
+/* ===== LOGIN/REGISTER FORMS ===== */
+.card {
+  border-radius: 12px;
+}
+
+.card input.form-control {
+  border-radius: 8px;
+}
+
+.card button.btn {
+  border-radius: 50px;
+  font-weight: 600;
+  transition: transform 0.2s ease;
+}
+
+.card button.btn:hover {
+  transform: scale(1.05);
+}
+
+
+/* ===== CONTACT FORM ===== */
+.card input, .card textarea {
+  border-radius: 8px;
+}
+
+.card button.btn {
+  border-radius: 50px;
+  font-weight: 600;
+  transition: transform 0.2s ease;
+}
+
+.card button.btn:hover {
+  transform: scale(1.05);
+}
+
+#contact-info p i {
+  color: #0078AA;
+}
+
