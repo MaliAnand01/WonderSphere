@@ -12,6 +12,12 @@
       crossorigin="anonymous"
     />
 
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
@@ -164,7 +170,7 @@
       </div>
     </section>
 
-    <!-- Featured Destinations -->
+    <!-- Destinations Section -->
     <section id="destinations" class="py-5 bg-light">
       <div class="container">
         <div class="text-center mb-5">
@@ -174,53 +180,111 @@
           </p>
         </div>
 
-        <div class="row g-4">
-          <!-- Destination 1 -->
-          <div class="col-md-4">
-            <div class="card border-0 shadow-sm h-100">
-              <img src="./images/paris.jpg" class="card-img-top" alt="Paris" />
-              <div class="card-body text-center">
-                <h5 class="card-title fw-semibold">Paris, France</h5>
-                <p class="card-text text-muted">
-                  The city of lights and love, full of art, culture, and charm.
-                </p>
-                <a href="#" class="btn btn-primary btn-sm">Explore</a>
+        <!-- Swiper Container -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!-- Destination 1 -->
+            <div class="swiper-slide">
+              <div class="card border-0 shadow-sm">
+                <img src="images/paris.jpg" class="card-img-top" alt="Paris" />
+                <div class="card-body text-center">
+                  <h5 class="card-title fw-semibold">Paris, France</h5>
+                  <p class="card-text text-muted">
+                    The city of lights and love, full of art, culture, and
+                    charm.
+                  </p>
+                  <a href="#" class="btn btn-primary btn-sm">Explore</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Destination 2 -->
+            <div class="swiper-slide">
+              <div class="card border-0 shadow-sm">
+                <img src="images/bali.jpg" class="card-img-top" alt="Bali" />
+                <div class="card-body text-center">
+                  <h5 class="card-title fw-semibold">Bali, Indonesia</h5>
+                  <p class="card-text text-muted">
+                    Experience tropical beaches, temples, and unforgettable
+                    sunsets.
+                  </p>
+                  <a href="#" class="btn btn-primary btn-sm">Explore</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Destination 3 -->
+            <div class="swiper-slide">
+              <div class="card border-0 shadow-sm">
+                <img
+                  src="images/switzerland.jpg"
+                  class="card-img-top"
+                  alt="Switzerland"
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title fw-semibold">Zurich, Switzerland</h5>
+                  <p class="card-text text-muted">
+                    A scenic paradise filled with mountains, lakes, and culture.
+                  </p>
+                  <a href="#" class="btn btn-primary btn-sm">Explore</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Destination 4 -->
+            <div class="swiper-slide">
+              <div class="card border-0 shadow-sm">
+                <img src="images/rome.jpg" class="card-img-top" alt="Rome" />
+                <div class="card-body text-center">
+                  <h5 class="card-title fw-semibold">Rome, Italy</h5>
+                  <p class="card-text text-muted">
+                    Walk through ancient history and vibrant Italian culture.
+                  </p>
+                  <a href="#" class="btn btn-primary btn-sm">Explore</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Destination 5 -->
+            <div class="swiper-slide">
+              <div class="card border-0 shadow-sm">
+                <img
+                  src="images/newyork.jpg"
+                  class="card-img-top"
+                  alt="New York"
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title fw-semibold">New York, USA</h5>
+                  <p class="card-text text-muted">
+                    The city that never sleeps — full of energy and diversity.
+                  </p>
+                  <a href="#" class="btn btn-primary btn-sm">Explore</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Destination 6 -->
+            <div class="swiper-slide">
+              <div class="card border-0 shadow-sm">
+                <img
+                  src="images/lasvegas.jpg"
+                  class="card-img-top"
+                  alt="Las Vegas"
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title fw-semibold">Las Vegas, USA</h5>
+                  <p class="card-text text-muted">
+                    The entertainment capital of the world with vibrant
+                    nightlife.
+                  </p>
+                  <a href="#" class="btn btn-primary btn-sm">Explore</a>
+                </div>
               </div>
             </div>
           </div>
 
-          <!-- Destination 2 -->
-          <div class="col-md-4">
-            <div class="card border-0 shadow-sm h-100">
-              <img src="./images/bali.jpg" class="card-img-top" alt="Bali" />
-              <div class="card-body text-center">
-                <h5 class="card-title fw-semibold">Bali, Indonesia</h5>
-                <p class="card-text text-muted">
-                  Experience tropical beaches, temples, and unforgettable
-                  sunsets.
-                </p>
-                <a href="#" class="btn btn-primary btn-sm">Explore</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Destination 3 -->
-          <div class="col-md-4">
-            <div class="card border-0 shadow-sm h-100">
-              <img
-                src="images/switzerland.jpg"
-                class="card-img-top"
-                alt="Switzerland"
-              />
-              <div class="card-body text-center">
-                <h5 class="card-title fw-semibold">Zurich, Switzerland</h5>
-                <p class="card-text text-muted">
-                  A scenic paradise filled with mountains, lakes, and culture.
-                </p>
-                <a href="#" class="btn btn-primary btn-sm">Explore</a>
-              </div>
-            </div>
-          </div>
+          <!-- Pagination Dots -->
+          <div class="swiper-pagination mt-4"></div>
         </div>
       </div>
     </section>
@@ -457,5 +521,28 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        breakpoints: {
+          0: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          992: { slidesPerView: 3 },
+        },
+      });
+    </script>
   </body>
 </html>

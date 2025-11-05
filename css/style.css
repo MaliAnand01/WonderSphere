@@ -108,7 +108,6 @@ footer i:hover {
   transform: scale(1.2);
 }
 
-
 /* ===== CTA SECTION ===== */
 #cta h2 {
   font-size: 2rem;
@@ -129,7 +128,6 @@ footer i:hover {
   transform: scale(1.05);
 }
 
-
 /* ===== LOGIN/REGISTER FORMS ===== */
 .card {
   border-radius: 12px;
@@ -149,9 +147,9 @@ footer i:hover {
   transform: scale(1.05);
 }
 
-
 /* ===== CONTACT FORM ===== */
-.card input, .card textarea {
+.card input,
+.card textarea {
   border-radius: 8px;
 }
 
@@ -166,6 +164,30 @@ footer i:hover {
 }
 
 #contact-info p i {
-  color: #0078AA;
+  color: #0078aa;
 }
 
+/* ===== FEATURED DESTINATIONS (Swiper) ===== */
+.mySwiper {
+  padding-bottom: 50px;
+}
+
+.mySwiper .card img {
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.mySwiper .card:hover img {
+  transform: scale(1.08);
+}
+
+.swiper-pagination-bullet {
+  background: #444;
+  opacity: 0.6;
+}
+
+.swiper-pagination-bullet-active {
+  background: #0078aa;
+  opacity: 1;
+}
