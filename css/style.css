@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -9,9 +13,9 @@ h4 {
   font-family: "Poppins", sans-serif;
 }
 
-/* ===== HERO SECTION ===== */
+/*  HERO SECTION  */
 #hero .carousel-item {
-  height: 90vh;
+  height: 100vh;
   min-height: 400px;
   position: relative;
   overflow: hidden;
@@ -22,6 +26,10 @@ h4 {
   height: 100%;
   object-fit: cover;
   filter: brightness(70%);
+}
+
+#hero .carousel-caption{
+  bottom: 20%;
 }
 
 #hero .carousel-caption h1 {
@@ -35,7 +43,7 @@ h4 {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-/* ===== DESTINATIONS SECTION ===== */
+/*  DESTINATIONS SECTION  */
 #destinations .card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border-radius: 12px;
@@ -52,7 +60,7 @@ h4 {
   object-fit: cover;
 }
 
-/* ===== SPECIAL OFFERS SECTION ===== */
+/*  SPECIAL OFFERS SECTION  */
 #offers .card {
   border-radius: 12px;
   overflow: hidden;
@@ -69,7 +77,7 @@ h4 {
   object-fit: cover;
 }
 
-/* ===== TESTIMONIALS SECTION ===== */
+/*  TESTIMONIALS SECTION  */
 #testimonials .card {
   border-radius: 15px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -82,7 +90,7 @@ h4 {
 
 #testimonials img {
   object-fit: cover;
-  border: 3px solid #0078aa; /* Matches your theme */
+  border: 3px solid #0078aa;
 }
 
 #testimonials p {
@@ -90,7 +98,7 @@ h4 {
   line-height: 1.6;
 }
 
-/* ===== FOOTER ===== */
+/*  FOOTER  */
 footer {
   font-size: 0.9rem;
 }
@@ -101,14 +109,10 @@ footer a:hover {
 
 footer i {
   font-size: 1.2rem;
-  transition: transform 0.2s ease;
 }
 
-footer i:hover {
-  transform: scale(1.2);
-}
 
-/* ===== CTA SECTION ===== */
+/*  CTA SECTION  */
 #cta h2 {
   font-size: 2rem;
 }
@@ -128,7 +132,7 @@ footer i:hover {
   transform: scale(1.05);
 }
 
-/* ===== LOGIN/REGISTER FORMS ===== */
+/*  LOGIN/REGISTER FORMS  */
 .card {
   border-radius: 12px;
 }
@@ -147,7 +151,7 @@ footer i:hover {
   transform: scale(1.05);
 }
 
-/* ===== CONTACT FORM ===== */
+/*  CONTACT FORM  */
 .card input,
 .card textarea {
   border-radius: 8px;
@@ -167,7 +171,7 @@ footer i:hover {
   color: #0078aa;
 }
 
-/* ===== FEATURED DESTINATIONS (Swiper) ===== */
+/*  FEATURED DESTINATIONS  */
 .mySwiper {
   padding-bottom: 60px;
 }
@@ -192,4 +196,14 @@ footer i:hover {
   opacity: 1;
 }
 
+/* Media Queries */
 
+@media (max-width: 576px) {
+  #hero .carousel-caption h1 {
+    font-size: 1.5rem;
+  }
+
+  #hero .carousel-caption p {
+    font-size: 0.9rem;
+  }
+}
